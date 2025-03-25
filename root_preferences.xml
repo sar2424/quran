@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="dark_mode"
+        android:title="Dark Mode"
+        android:summary="Enable or disable dark mode"
+        android:defaultValue="false" />
+
+    <Preference
+        android:key="account_settings"
+        android:title="Account Settings"
+        android:summary="Manage your account settings" />
+
+    <Preference
+        android:key="notifications"
+        android:title="Notifications"
+        android:summary="Manage notification settings" />
+
+    <Preference
+        android:key="app_info"
+        android:title="App Info"
+        android:summary="View app version and privacy policy" />
+
+</PreferenceScreen>

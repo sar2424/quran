@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- حقل البريد الإلكتروني -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="yes"
+        android:minHeight="48dp" /> <!-- زيادة حجم اللمس -->
+
+    <!-- حقل كلمة المرور -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:importantForAutofill="yes"
+        android:minHeight="48dp" /> <!-- زيادة حجم اللمس -->
+
+    <!-- زر تسجيل الدخول -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button_text"
+        android:minHeight="48dp" /> <!-- زيادة حجم اللمس -->
+
+    <!-- نص التسجيل -->
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_text"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:paddingTop="16dp"
+        android:minHeight="48dp" /> <!-- زيادة حجم اللمس -->
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- حقل البريد الإلكتروني -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="yes"
+        android:minHeight="48dp" /> <!-- زيادة حجم اللمس -->
+
+    <!-- حقل كلمة المرور -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:importantForAutofill="yes"
+        android:minHeight="48dp" /> <!-- زيادة حجم اللمس -->
+
+    <!-- حقل تأكيد كلمة المرور -->
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password_hint"
+        android:inputType="textPassword"
+        android:importantForAutofill="yes"
+        android:minHeight="48dp" /> <!-- زيادة حجم اللمس -->
+
+    <!-- زر التسجيل -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button_text"
+        android:minHeight="48dp" /> <!-- زيادة حجم اللمس -->
+
+    <!-- نص تسجيل الدخول -->
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_text"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:paddingTop="16dp"
+        android:minHeight="48dp" /> <!-- زيادة حجم اللمس -->
+</LinearLayout>
